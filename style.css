@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Barlow+Semi+Condensed:wght@500&family=Inter:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:"Barlow Semi Condensed"
+}
+body {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+.card {
+    background-color: rgb(224, 133, 97);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0cm 0.5cm 1cm rgb(0, 0, 0, 0.213);
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: white;
+}
+span {
+    color: #b1b1b1;
+
+font-size: 0.8rem;
+}
+h3 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.8cm 0cm;
+}
+p {
+    color: #CFCFCF;
+}
+.daniel {
+    background-color: #733FC8;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 150px;
+}
+.jonathan {
+    background-color:#48556A ;
+}
+.jeanette h2,
+.jeanette h3,
+.kira h2, 
+.kira h3{
+    color: #48556A;
+}
+.jeanette p,
+.kira p {
+    color: #48556A;
+}
+.jeanette span,
+.kira span {
+    color: #6a788d;
+}
+.jeanette {
+    background-color: white;
+}
+.patrick {
+    background-color: #414d61;
+}
+.kira {
+    background-color: white;
+}
